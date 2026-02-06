@@ -1,0 +1,31 @@
+html, body
+{
+    height: 100%;
+    margin: 0;
+
+    background-color: rgb(206, 235, 255);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container
+{
+    display: flex;
+    height: 100vh;
+}
+
+#editor, #preview
+{
+    flex: 1;
+    padding: 5px;
+
+}
+
+#editor
+{
+    resize: none;
+    font-family: monospace;
+}
+
